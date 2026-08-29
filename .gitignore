@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js / client app
+client/.next/
+client/out/
+client/node_modules/
+client/.vercel/
+
+# Production builds
+build/
+dist/
+out/
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads / generated content
+server/uploads/
+uploads/
+*.tmp
+*.temp
+
+# Test / cache files
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Database / local data
+*.sqlite
+*.sqlite3
+db/*.db
+
+# Miscellaneous
+*.bak
+*.orig
+
+# Optional: keep local docs if you want them ignored
+# docs/private/
